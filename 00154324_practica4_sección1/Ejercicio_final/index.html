@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio Final – Guía 4</title>
+    <title>Ejercicio Final</title>
 </head>
+
 <body>
-    <h1>Recordatorio Diario</h1>
-    <div id="recordatorio"></div>
+    <h2>Recordatorio</h2>
+    <select id="dia">
+        <option>lunes</option>
+        <option>martes</option>
+        <option>miércoles</option>
+        <option>jueves</option>
+        <option>viernes</option>
+        <option>sábado</option>
+    </select>
+    <input id="msg" placeholder="Mensaje opcional">
+    <button onclick="recordar()">Recordar</button>
+    <p id="out"></p>
 
     <script src="script.js"></script>
 </body>
+
 </html>
